@@ -8,6 +8,8 @@ def jump_search(num_list,search_index,len(num_list)
 '''
 import math
 def jump_search(num_list,search_index,length):
+    #sort the array first
+    num_list=sorted(num_list)
     prev_index=0
     jump=math.sqrt(length)
     jump=int(jump)
